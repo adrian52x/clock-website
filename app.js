@@ -14,8 +14,9 @@ app.get("/location", (req, res) => {
 
 
 
+const host = '0.0.0.0';
+let PORT = process.env.PORT || 5000;
 
-const PORT = 8080;
 app.listen(PORT, () => {
     console.log("Server is running on port", PORT);
 })
