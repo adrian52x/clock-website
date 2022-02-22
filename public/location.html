@@ -152,7 +152,7 @@
     <script>
 
         // Getting client public IP address
-        fetch('http://worldtimeapi.org/api/timezone/Europe/Copenhagen')
+        fetch('https://worldtimeapi.org/api/timezone/Europe/Copenhagen')
             .then((Response) => Response.json())
             .then((info) => {
                console.log(info.client_ip);
